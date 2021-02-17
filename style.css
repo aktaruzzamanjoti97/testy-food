@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.title-all{
+    padding-left: 70px;
+}
+#first-section{
+    /* max-width: 100px; */
+}
+.set-navbar{
+    display: flex;
+    flex-direction: row-reverse;
+}
+header{
+    padding: 0 4rem;
+    margin: 0 auto;
+}
+#home-image{
+    max-width: 25rem;
+}
+#tasty-title{
+    padding-top: 6rem;
+    
+}
+.home-div{
+    padding-left: 70px;
+}
+#second-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   justify-content: center;
+    max-width: 1000px;
+    margin: 8rem auto;
+}
+#second-section img{
+    max-width: 75vh;
+    border-radius: 1.5rem;
+    /* text-align: center */
+    /* padding-left: 1.5rem; */
+    margin: 0 auto;
+}
+#second-details-section{
+    padding-top: 92px;
+    padding-left: 30px;
+}
+
+@media (max-width: 768px){
+    #second-section{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+#second-img{
+    margin: 0 auto;
+}
+.icon{
+    margin: 0 auto;
+    font-size: 5rem;
+    color: goldenrod;
+    padding-bottom: 1.5rem;
+}
+.card-heading{
+    padding: 1rem 0;
+    text-align: center;
+}
+#third-image{
+    margin: 0 auto;
+}
+#third-image img{
+    width: 80vh;
+}
+#app-style{
+    display: flex;
+}
+#app-style img{
+    width: 10rem;
+}
+#appstore-style{
+    padding-top: 130px;
+}
+#info-part{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1000px;
+}
+p{
+    color: dimgray;
+}
+@media (max-width: 668px){
+    #info-part{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 572px){
+    #info-part{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
